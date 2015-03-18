@@ -31,10 +31,11 @@ Due to the data file size, it may take a while for the funciton to finish. It us
 Data analysis process:
 =========================================
 Here is the cleanup and re-assemble proccess applied to the raw data. 
+
 1. The following data files are read into R as raw data.
-        Under training folder: 'X_training.txt', 'y_training.txt', 'subject_training.txt'
-        Under testing folder: 'X_test.txt', 'y_text.txt', 'subject_training.txt'
-        Under the main UCI HAR Dataset folder: 'features.txt', 'activity_label.txt'
+Under training folder: 'X_training.txt', 'y_training.txt', 'subject_training.txt'
+Under testing folder: 'X_test.txt', 'y_text.txt', 'subject_training.txt'
+Under the main UCI HAR Dataset folder: 'features.txt', 'activity_label.txt'
         
 2. X_training and X_test are row-binded to form the main dataset. 
 
