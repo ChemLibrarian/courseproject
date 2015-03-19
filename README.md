@@ -2,10 +2,11 @@ This project is to demonstrate my ability to collect, work with and clean a data
 
 This Repo includes the following files:
 =========================================
-- 'README.md' contains explanations on how all scripts work and how they connected. 
-- 'codebook.md' contains descriptions of variables included. 
+- 'README.md' contains explanations on how all scripts work and how they connected.
+- 'UCI HAR Dataset' folder is downloaded and unzipped from the link listed under the Data source section below.  
 - 'run_analysis.R' contains the R function used to clean the raw data sets and assemeble the cleaned dataset. 
 - 'tidydata.txt' contains the cleaned and re-assemebled dataset resulted from the 'run_analysis.R' script.
+- 'codebook.md' contains descriptions of variables included in the 'tidydata.txt' file. 
 
 Data source: 
 =========================================
