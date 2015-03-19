@@ -14,7 +14,10 @@ Processed data:
 =========================================
 The "tidydata.txt" file contains the data processed by the "run.analysis.R" script from the raw data described above. 
 
-Each row represents the mean of the mean and standard deviation of measurement performed on a particular subject doing a particular activity. For example, the data in the first row and third column means the mean of the tBodyAcc-mean()-X meansured from Subject 1 when Subject 1 was lying.  
+Each row represents the mean of the mean and standard deviation of measurement performed on a particular subject doing a particular activity. 
+For example, the data in the first row and third column means the mean of the tBodyAcc-mean()-X meansured from Subject 1 when Subject 1 was lying.  
+
+The units of these variables are the same as the corresponding variables in the raw data set. Please refer to the files mentioned in the raw data section for details. 
 
 The first and the second column listed the Subject and the Activity description of the measured variable. The third to the 81th columns list the means of variables on the mean and standard deviation for each measurement. 
 These corresponding mean and standard deviation for measurements are: 
@@ -98,5 +101,6 @@ These corresponding mean and standard deviation for measurements are:
 "fBodyBodyGyroJerkMag-mean()"
 "fBodyBodyGyroJerkMag-std()"
 "fBodyBodyGyroJerkMag-meanFreq()"
+
 
 To understand these measurements, please refer to the files mentioned in the raw data section. 
